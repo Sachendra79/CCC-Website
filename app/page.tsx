@@ -1,4 +1,5 @@
 import Image from "next/image";
+<<<<<<< HEAD
 
 export default function Home() {
   return (
@@ -109,5 +110,16 @@ export default function Home() {
         </a>
       </div>
     </main>
+=======
+import Sidebar from '../components/Sidebar/Sidebar';
+import MainHomePage from '../components/MainHomePage';
+import Footer from '../components/footer/Footer';
+
+export default function Home() {
+  return (
+    <div className="">
+      <Sidebar/>
+    </div>
+>>>>>>> origin/Yash_Branch
   );
 }
