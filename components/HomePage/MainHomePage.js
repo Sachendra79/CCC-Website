@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useCallback } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
+
 const MainHomePage = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
@@ -64,17 +65,17 @@ const MainHomePage = () => {
                             type: "image",
                             image: [
                                 {
-                                    src: "./atom.png", // Adjust the path according to your public directory
+                                    src: "./icons8-react-js.svg", // Adjust the path according to your public directory
                                     height: 20,
                                     width: 20,
                                 },
                                 {
-                                    src: "./atom.png",
+                                    src: "./icons8-react-js.svg",
                                     height: 20,
                                     width: 20,
                                 },
                                 {
-                                    src: "./atom.png",
+                                    src: "./icons8-react-js.svg",
                                     height: 20,
                                     width: 20,
                                 },
